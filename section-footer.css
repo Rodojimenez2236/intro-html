@@ -1,6 +1,6 @@
 :root {
   --rojo: #e50914;
-  --rojo-oscuro: #d41019;
+  --rojo-claro: #e92b35;
   --bg-principal: #222;
   --bg-secondary: #303030;
   --border-color: #4b4b4b;
@@ -38,12 +38,19 @@ a {
   padding-bottom: 2rem;
 }
 
+.pb-2 {
+  padding-bottom: 1rem;
+}
+
 .border-bottom-1 {
   border-bottom: .5rem solid var(--border-color);
 }
 
 .text-center {
   text-align: center;
+}
+.text-gris {
+  color: var(--gris);
 }
 
 .fs-1 {
@@ -62,6 +69,14 @@ a {
   font-size: 1em;
 }
 
+.fs-5 {
+  font-size: .8em;
+}
+
+.fs-6 {
+  font-size: .65em;
+}
+
 .underline-hover:hover {
   text-decoration: underline;
 }
@@ -77,7 +92,7 @@ a {
   color: var(--white);
 }
 .btn-red:hover {
-  background-color: var(--rojo-oscuro);
+  background-color: var(--rojo-claro);
   cursor: pointer;
 }
 
@@ -85,10 +100,15 @@ a {
   display: none;
 }
 
+.d-block {
+  display: block;
+}
+
 .d-flex {
   display: flex;
 }
-.flex-auto {
+.flex-auto,
+.flex-item-equals {
   flex: auto;
 }
 .justify-content-between {
@@ -110,4 +130,24 @@ a {
 
 .input-newsletter {
   padding: 10px 8px;
+}
+
+.input-newsletter:focus {
+  outline: none;
+}
+
+footer {
+  color: var(--gris);
+}
+
+.select-len {
+  padding: 10px 15px;
+  color: var(--gris);
+  background-color: transparent;
+  border: 1px solid var(--gris);
+  border-radius: 4px;
+}
+
+.select-len option {
+  background-color: transparent;
 }
