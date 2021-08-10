@@ -4,53 +4,55 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Netflix</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="section-footer.css">
 </head>
 <body>
   <header></header>
   <main></main>
-  <section id="infoNetflix">
-    <div class="container">
+  <section id="infoNetflix" class="py-4 border-bottom-1">
+    <div class="container mx-auto">
       <div id="preguntasFrecuentes">
-        <h2>Preguntas frecuentes</h2>
-        <div id="preguntas">
-          <div class="pregunta">
+        <h2 class="text-center mb-4 fs-1">Preguntas frecuentes</h2>
+        <div id="preguntas" class="mb-4">
+          <div class="pregunta fs-2">
             <p class="texto-pregunta">¿Qué es Netflix?</p>
             <span class="icon-pregunta">+</span>
           </div>
-          <div class="pregunta">
+          <div class="pregunta fs-2">
             <p class="texto-pregunta">¿Cuánto cuesta Netflix?</p>
             <span class="icon-pregunta">+</span>
           </div>
-          <div class="pregunta">
+          <div class="pregunta fs-2">
             <p class="texto-pregunta">¿Dónde puedo ver Netflix?</p>
             <span class="icon-pregunta">+</span>
           </div>
-          <div class="pregunta">
+          <div class="pregunta fs-2">
             <p class="texto-pregunta">¿Cómo cancelo?</p>
             <span class="icon-pregunta">+</span>
           </div>
-          <div class="pregunta">
+          <div class="pregunta fs-2">
             <p class="texto-pregunta">¿Qué puedo ver en Netflix?</p>
             <span class="icon-pregunta">+</span>
           </div>
-          <div class="pregunta">
+          <div class="pregunta fs-2">
             <p class="texto-pregunta">¿Es bueno Netflix para los niños?</p>
             <span class="icon-pregunta">+</span>
           </div>
         </div>
       </div>
       <div id="newsletter">
-        <h2>¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</h2>
-        <form action="">
+        <h2 class="fs-4 text-center mb-4">¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</h2>
+        <form action="" class="d-flex">
           <label for="email" class="d-none">Correo electrónico:</label>
-          <input type="text" name="email" id="email" class="input-newsletter">
-          <button type="submit">Comenzar <span class="icon-comenzar">></span></button>
+          <input type="text" name="email" id="email" class="input-newsletter flex-auto" placeholder="Email">
+          <button type="submit" class="align-self-stretch btn btn-red">Comenzar <span class="icon-comenzar">> </span></button>
         </form>
       </div>
     </div>
   </section>
   <footer>
-    <div class="container">
+    <div class="container mx-auto">
       <p>¿Preguntas? Llama al <span class="underline-hover">800-062-2406</span></p>
       <div class="d-flex">
         <div class="flex-item-equals">

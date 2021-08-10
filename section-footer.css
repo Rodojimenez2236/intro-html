@@ -1,0 +1,113 @@
+:root {
+  --rojo: #e50914;
+  --rojo-oscuro: #d41019;
+  --bg-principal: #222;
+  --bg-secondary: #303030;
+  --border-color: #4b4b4b;
+  --gris: #757575;
+  --white: #fff;
+}
+
+body {
+  background-color: var(--bg-principal);
+  color: var(--white);
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mb-4 {
+  margin-bottom: 2rem;
+}
+
+.py-4 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.border-bottom-1 {
+  border-bottom: .5rem solid var(--border-color);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.fs-1 {
+  font-size: 2em;
+}
+
+.fs-2 {
+  font-size: 1.5em;
+}
+
+.fs-3 {
+  font-size: 1.2em;
+}
+
+.fs-4 {
+  font-size: 1em;
+}
+
+.underline-hover:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  padding: 10px 8px;
+  outline: none;
+  border-color: transparent;
+}
+
+.btn-red {
+  background-color: var(--rojo);
+  color: var(--white);
+}
+.btn-red:hover {
+  background-color: var(--rojo-oscuro);
+  cursor: pointer;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-flex {
+  display: flex;
+}
+.flex-auto {
+  flex: auto;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.align-self-stretch {
+  align-self: stretch;
+}
+
+#preguntas .pregunta {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--bg-secondary);
+  padding: 15px 20px;
+}
+#preguntas .pregunta:not(:last-child) {
+  margin-bottom: .5rem;
+}
+
+.input-newsletter {
+  padding: 10px 8px;
+}
