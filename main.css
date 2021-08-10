@@ -3,3 +3,57 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.header {
+  height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(#303033)),
+    url(../Images/CatalogBg.png);
+  background-size: cover;
+}
+
+.logo-box {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+}
+
+.logo {
+  height: 80px;
+}
+
+.text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -100%);
+}
+
+.heading-primary {
+  color: #fff;
+}
+
+.heading-primary-second {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.heading-primary-third {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.get-started {
+  background-color: rgb(209, 64, 64);
+  font-size: 20px;
+  align-self: auto;
+  color: #fff;
+  width: 200px;
+  height: 60px;
+}
+
+.email-address {
+  width: 500px;
+  height: 60px;
+}
