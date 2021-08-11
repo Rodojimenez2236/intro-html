@@ -1,30 +1,31 @@
+#background{
+  background-color: rgb(212, 182, 182);
+  display: flex;
+  justify-content: center;
+  }
+}
 .container {
-    width: 500px;
-    height: 275px;
-    background-color:yellow;
+    display: flex;
+    flex-: row;
+    align-items: flex-start;
+    }
+
+  .box1 {
+   
     display: flex;
     flex-direction: row;
     align-items: flex-start;
 
   }
   
-  .box1{
-    flex-grow:5;
-    justify-content: center;
-    justify-content: flex-end;
-    justify-content: center;
-    justify-content: space-between;
-    justify-content: space-around;
-    justify-content: space-evenly;
-  }
-  
   .box2 {
-    flex-grow:1;
-    background-color:yellow;
-    height: 100px;
-    width: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
   }
   
   .box3 {
-    flex-grow:15;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
   }
