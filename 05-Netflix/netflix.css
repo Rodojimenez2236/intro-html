@@ -1,0 +1,30 @@
+.container {
+    width: 500px;
+    height: 275px;
+    background-color:yellow;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+  }
+  
+  .box1{
+    flex-grow:5;
+    justify-content: center;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+  }
+  
+  .box2 {
+    flex-grow:1;
+    background-color:yellow;
+    height: 100px;
+    width: 75px;
+  }
+  
+  .box3 {
+    flex-grow:15;
+  }

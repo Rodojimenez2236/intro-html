@@ -1,0 +1,22 @@
+#container {
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    display:flex;
+    flex-direction: column;
+    
+
+}
+
+.box {
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    max-width: 600px;
+    height: 50px;
+    background-color: yellow;
+}
+
+.inside box{
+    shape-image-threshold: unset;
+}
