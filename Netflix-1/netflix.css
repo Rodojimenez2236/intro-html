@@ -1,0 +1,36 @@
+.background{
+  background-color: #13191e;
+}
+
+#main-container {
+  background-color: black;
+  display: flex;
+  align-items: center; 
+}
+
+.container-text {
+  flex-direction: column;
+  color: white;
+ padding: 5%;
+}
+
+.container-title {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 550;
+  width: 500px;
+  height: 50px;
+  margin: 10px;
+  }
+
+  .container-body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.65re;
+  }
+
+  #main-container4 {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;

@@ -1,0 +1,28 @@
+body {
+  color: red;
+}
+
+header {
+  background-color: #000;
+}
+
+nav {
+  display: block;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav ul li {
+  text-decoration: underline;
+  color: #a02b96;
+}
+
+nav ul li:hover {
+  cursor: pointer;
+  background-color: grey;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,17 +1,24 @@
+body{
+    font-size: 10px;
+}
+
 #container{
     display: flex;
 }
 
 .item{
     width: 200px;
+    padding: 10px;
     height: 300px;
     margin: 10px;
     background-color: azure;
+    
 }
 
 @media (min-width: 576px){
   #container{
     flex-direction:row;
+    flex-wrap: wrap;
     font-size: 1.2rem;
     color: purple;
     max-width: 90%;
@@ -20,5 +27,6 @@
   }
   .item{
       background-color: salmon;
+      max-width: 300px;
   }
 }

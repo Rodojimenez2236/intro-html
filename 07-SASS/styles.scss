@@ -1,0 +1,31 @@
+$primary-color: #28ceda;
+
+
+body {
+    color: red;
+}
+
+header {
+    background-color: #000;
+}    
+
+nav {
+    display: block;
+}
+
+nav ul {
+    display: flex;
+    li {
+        text-decoration: underline;
+        color: #a02b96;
+        &:hover {
+            cursor: pointer;
+            background-color: grey;
+            }
+        }
+    }
+}
+
+.card {
+    width: ;
+}
