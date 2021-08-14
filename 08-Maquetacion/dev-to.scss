@@ -1,0 +1,46 @@
+body {
+    margin: 0%;
+    background-color: #eef0;
+}
+
+#main {
+    nav {
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        &>div {
+            display: flex;
+            flex-direction: row;
+    
+        }
+}
+
+    img{
+        width: 45px;
+    }
+}
+
+.avatar>img{
+    border-radius: 50%;
+}
+
+aside {
+    display: none;
+}
+
+main {
+    width: 100%;
+    .poosts-menu {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+    }
+}
+
+.post {
+    margin: 5px;
+    background-color: #FFF;
+    border: 1px solid lightgrey;
+}

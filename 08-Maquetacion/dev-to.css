@@ -1,0 +1,61 @@
+body {
+  margin: 0%;
+  background-color: #eef0;
+}
+
+#main nav {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#main nav > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#main img {
+  width: 45px;
+}
+
+.avatar > img {
+  border-radius: 50%;
+}
+
+aside {
+  display: none;
+}
+
+main {
+  width: 100%;
+}
+
+main .poosts-menu {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid black;
+}
+
+.post {
+  margin: 5px;
+  background-color: #FFF;
+  border: 1px solid lightgrey;
+}
+/*# sourceMappingURL=dev-to.css.map */
