@@ -1,0 +1,11 @@
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    min-width: 200px;*/
+    height: 300px;
+    margin: 10px;
+    background-color: azure;
+}
